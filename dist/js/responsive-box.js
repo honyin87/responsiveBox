@@ -27,6 +27,7 @@
             
             scalePages($page, $target,basePage);
         });
+        scalePages($page, $target,basePage);
      
         return this;
  
