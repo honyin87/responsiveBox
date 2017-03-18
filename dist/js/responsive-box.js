@@ -24,7 +24,7 @@
         $(target).addClass("responsive-box-cover");
 
         $(window).resize(function () {
-            console.log($target);
+            
             scalePages($page, $target,basePage);
         });
      
