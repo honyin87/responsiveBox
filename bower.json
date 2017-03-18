@@ -1,0 +1,24 @@
+{
+  "name": "responsiveBox",
+  "authors": [
+    "honyin87 <honyin87@gmail.com>"
+  ],
+  "description": "responsive resizing of content",
+  "main": "",
+  "keywords": [
+    "responsive",
+    "resize"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.0"
+  }
+}

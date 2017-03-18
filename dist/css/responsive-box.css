@@ -1,0 +1,20 @@
+.responsive-box-content {
+  -ms-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+  -webkit-transition: all 100ms ease-in-out !important;
+  transition: all 100ms ease-in-out !important;
+  position: absolute;
+}
+
+.responsive-box-cover {
+  resize: both;
+  position: relative;
+
+}
+
+.ui{
+  border:solid 1px blue;margin:0 auto; width:100%;
+  width: 1440px;
+  height: 855.333px;
+}
