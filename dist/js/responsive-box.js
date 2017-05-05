@@ -25,20 +25,20 @@
 
         $(window).resize(function () {
             
-            scalePages($page, $target,basePage);
+            scalePages( target,basePage);
         });
         $(document).ready(function(){
-            scalePages($page, $target,basePage);
+            scalePages(target,basePage);
         });
      
         return this;
  
     };
 
-    function scalePages(page, target, basePage) {
+    function scalePages( target, basePage) {
         var scale;
-        target = $(target.selector);
-        page = $(page.selector);
+        target = $(target);
+        var page = $('.responsive-box-content');
         maxHeight = target.height();
         maxWidth = target.width();
         scale = Math.min(
